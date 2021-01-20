@@ -1,0 +1,27 @@
+#!/bin/sh
+mkdir 1c/models
+mkdir 1c/models/prej_prej
+mkdir 1c/models/prej_unprej
+mkdir 1c/models/unprej_unprej
+mkdir 1c/models/unprej_prej
+python 1c/prej_prej_5.py
+python 1c/prej_prej_6.py
+python 1c/prej_prej_7.py
+python 1c/prej_prej_8.py
+python 1c/prej_prej_9.py
+python 1c/prej_unprej_5.py
+python 1c/prej_unprej_6.py
+python 1c/prej_unprej_7.py
+python 1c/prej_unprej_8.py
+python 1c/prej_unprej_9.py
+python 1c/unprej_prej_5.py
+python 1c/unprej_prej_6.py
+python 1c/unprej_prej_7.py
+python 1c/unprej_prej_8.py
+python 1c/unprej_prej_9.py
+python 1c/unprej_unprej_5.py
+python 1c/unprej_unprej_6.py
+python 1c/unprej_unprej_7.py
+python 1c/unprej_unprej_8.py
+python 1c/unprej_unprej_9.py
+python 1c/plot.py
