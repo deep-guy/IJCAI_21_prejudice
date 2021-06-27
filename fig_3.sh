@@ -1,0 +1,27 @@
+#!/bin/sh
+mkdir fig_3/models
+mkdir fig_3/models/prej_prej
+mkdir fig_3/models/prej_unprej
+mkdir fig_3/models/unprej_unprej
+mkdir fig_3/models/unprej_prej
+python fig_3/prej_prej_5.py
+python fig_3/prej_prej_6.py
+python fig_3/prej_prej_7.py
+python fig_3/prej_prej_8.py
+python fig_3/prej_prej_9.py
+python fig_3/prej_unprej_5.py
+python fig_3/prej_unprej_6.py
+python fig_3/prej_unprej_7.py
+python fig_3/prej_unprej_8.py
+python fig_3/prej_unprej_9.py
+python fig_3/unprej_prej_5.py
+python fig_3/unprej_prej_6.py
+python fig_3/unprej_prej_7.py
+python fig_3/unprej_prej_8.py
+python fig_3/unprej_prej_9.py
+python fig_3/unprej_unprej_5.py
+python fig_3/unprej_unprej_6.py
+python fig_3/unprej_unprej_7.py
+python fig_3/unprej_unprej_8.py
+python fig_3/unprej_unprej_9.py
+python fig_3/plot.py

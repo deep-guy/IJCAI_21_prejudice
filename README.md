@@ -16,11 +16,11 @@ Code must be run using Python 3 or higher. For a list of required modules, refer
 All the classes for all the agent types that make up the base of our model may be found in the directories "twoGroups" and "nGroups", each of which contain the agent classes for two group and multi-group societies respectively. The remaining directories contain instantiations of the model class used for generating the corresponding result objects. The names of these directories are the same as the result object in the paper they correspond to. 
 
 ### Generating plots
-Shell scripts have been written corresponding to each result object in the paper, and labelled accordingly. Therefore, to generate the plot in, say Fig 1(b), simply run
+Shell scripts have been written corresponding to each result object in the paper, and labelled accordingly. Therefore, to generate the plot in, say Fig 2, simply run
 
-    bash 1b.sh
+    bash fig_2.sh
 
-Each result is generated as an average of 10 runs of the model, which may take upto 5 minutes to finish execution. Note that some results are generated using the outputs from multiple experiments, and hence may take longer to generate. Fig 1(c) in particular shows the output of 20 experiments, and hence may take well over 1 hour to execute.
+Each result is generated as an average of 10 runs of the model, which may take upto 5 minutes to finish execution. Note that some results are generated using the outputs from multiple experiments, and hence may take longer to generate. Fig 3 in particular shows the output of 20 experiments, and hence may take well over 1 hour to execute.
 
 After execution, the pickle files for each model are saved in the respective directories. The final plot generated in saved as a png file in the root directory, and are labelled appropriately.
 
